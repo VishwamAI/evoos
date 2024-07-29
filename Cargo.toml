@@ -5,3 +5,7 @@ authors = ["Kasinadhsarma"]
 edition = "2021"
 
 [dependencies]
+
+[[bin]]
+name = "experiments-os"
+path = "kernel/src/main.rs"
