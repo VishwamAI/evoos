@@ -1,0 +1,7 @@
+[package]
+name = "experiments-os"
+version = "0.1.0"
+authors = ["Kasinadhsarma"]
+edition = "2021"
+
+[dependencies]
