@@ -1,11 +1,10 @@
 [package]
 name = "bootloader"
 version = "0.1.0"
-authors = ["Kasinadhsarma"]
+authors = ["KasinadhSarma"]
 edition = "2018"
 
 [dependencies]
 
-[[bin]]
-name = "bootloader"
-path = "src/main.rs"
+[lib]
+crate-type = ["staticlib"]
