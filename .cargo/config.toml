@@ -1,0 +1,9 @@
+[build]
+rustflags = ["-C", "panic=abort"]
+target = "x86_64-evoos"
+
+[target.x86_64-evoos]
+rustflags = [
+  "-C", "link-arg=-Tlink.x",
+  "-C", "linker=rust-lld"
+]
